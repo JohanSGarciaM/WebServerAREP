@@ -60,11 +60,9 @@ public static void main(String[] args) {
 }
 '''
 
-    En este punto el servidor debe definir qué tipo de archivos esta solicitando el navegador 
-    y si en efecto estos son existentes en el directorio se deben retornar hacia el cliente 
-    por medio del puerto establecido
-
-    La solicitud la hace el navegador por medio del protocolo HTTP preestablecido con su 
-    respectivo método GET el cual define el la dirección donde debe buscar el servidor y la versión del protocolo
-
-    Una vez realizada la transferencia de datos se debe cerrar el flujo del socket del navegador 
+En este punto el servidor debe definir qué tipo de archivos esta solicitando el navegador 
+y si en efecto estos son existentes en el directorio se deben retornar hacia el cliente 
+por medio del puerto establecido
+La solicitud la hace el navegador por medio del protocolo HTTP preestablecido con su 
+respectivo método GET el cual define el la dirección donde debe buscar el servidor y la versión del protocolo
+Una vez realizada la transferencia de datos se debe cerrar el flujo del socket del navegador 
