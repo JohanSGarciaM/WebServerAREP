@@ -42,7 +42,7 @@
     medio del navegador para así poder enviarla al servidor y este pueda definir el o los archivos 
     que se desean transmitir
 
-'''
+```
 public static void main(String[] args) {
     int port = 8080;
     try (ServerSocket serverSocket = new ServerSocket(port)) {
@@ -58,7 +58,7 @@ public static void main(String[] args) {
         e.printStackTrace();
     }
 }
-'''
+```
 
 En este punto el servidor debe definir qué tipo de archivos esta solicitando el navegador 
 y si en efecto estos son existentes en el directorio se deben retornar hacia el cliente 
