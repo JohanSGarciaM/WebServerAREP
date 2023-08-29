@@ -2,12 +2,15 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
+img {
+    width: 1000px;
+    height: 500px;
+    margin-left: 20%;
+}
 
 h1 {
-    color: #333;
+    color: blue;
+    margin-left: 300px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+
